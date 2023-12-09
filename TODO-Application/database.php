@@ -43,7 +43,7 @@
     }
 
     function connectdatabase() {
-        return mysqli_connect("127.0.0.1:3306", "dhiraj", "pass.1.11", "todo");
+        return mysqli_connect("todo.c0g1xheebbyn.us-east-1.rds.amazonaws.com:3306", "admin", "password", "todo");
     }
 
     function loggedin() {
